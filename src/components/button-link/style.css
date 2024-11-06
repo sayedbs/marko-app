@@ -1,0 +1,34 @@
+.button-link {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: var(--button-bg);
+  color: var(--button-fg);
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+/* Variants */
+.button-link-secondary {
+  background-color: var(--button-secondary-bg);
+  color: var(--button-secondary-fg);
+}
+
+.button-link:hover, .button-link-secondary:hover {
+  filter: brightness(110%);
+}
+
+
+
+/* Sizes */
+.button-link-small {
+  font-size: 0.9em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.button-link-large {
+  font-size: 1.2em;
+  font-weight: 100;
+}

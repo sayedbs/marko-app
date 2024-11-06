@@ -1,0 +1,67 @@
+<form.form>
+    <h2>
+        ${input.title}
+    </h2>
+
+    <div.form-group>
+        <label for="name">
+            Full Name
+        </label>
+        <input id="name" type="text" value="" placeholder="Enter your name" />
+    </div.form-group>
+    <div.form-group>
+        <label for="email">
+            Email
+        </label>
+        <input id="email" type="email" value="" placeholder="Enter your name" />
+    </div.form-group>
+    <div.form-group>
+        <label for="phone">
+            Phone
+        </label>
+        <input id="phone" type="tel" value="" placeholder="+88 ********" />
+    </div.form-group>
+
+    <div.form-group>
+        <input type="submit" value="Submit" />
+    </div.form-group>
+</form.form>
+
+
+style {
+    .form {
+        background: #eee;
+        padding: 20px;
+
+        h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        label {
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+
+        input {
+            display: block;
+            width: 100%;
+            padding: 5px 15px;
+            border-radius: 22px;
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        input[type="submit"] {
+            display: inline-block;
+            width: auto;
+            float: right;
+            background-color: blue;
+            color: white;
+        }
+    }
+}
